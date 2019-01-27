@@ -1,0 +1,17 @@
+
+integer ageInYear
+integer ageInSecond
+integer leapYear
+
+// Type your age, in years, into the inpute section, please.//
+
+
+ageInYear = Get next input
+ageInSecond = ageInYear*365*24*60*60
+leapYear = (ageInYear/4)*24*60*60 + ageInSecond
+
+Put "\n\nYou have successfully survived " to output
+Put ageInSecond to output
+Put " seconds in this plane of existence, great job!\n\n" to output
+Put leapYear to output
+Put " seconds if you account for leap years." to output
